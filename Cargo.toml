@@ -1,0 +1,15 @@
+[package]
+name = "appointment-media-uploader"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Multipart uploader and patient-safe appointment media workflow"
+
+[lib]
+name = "appointment_media"
+path = "src/appointment_media.rs"
+
+[[bin]]
+name = "appointment-upload"
+path = "src/bin/appointment_upload.rs"
+
